@@ -1,0 +1,17 @@
+/* Shared responsive behavior.
+   Layout-level responsive rules live inside each template's style.css. */
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 15px;
+  }
+}

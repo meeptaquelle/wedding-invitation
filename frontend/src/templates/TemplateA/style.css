@@ -1,0 +1,170 @@
+/* Template A — Minimalist editorial */
+
+.template-a {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  min-height: 100vh;
+}
+
+.ta-hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  padding: 2rem;
+}
+.ta-hero-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.03);
+}
+.ta-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6));
+}
+.ta-hero-content {
+  position: relative;
+  color: #fff;
+  z-index: 1;
+  max-width: 720px;
+}
+.ta-eyebrow {
+  font-family: var(--font-heading);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin: 0 0 1rem;
+  opacity: 0.9;
+}
+.ta-names {
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.1;
+}
+.ta-amp {
+  display: block;
+  font-size: 0.55em;
+  margin: 0.5rem 0;
+  opacity: 0.8;
+  font-style: italic;
+}
+.ta-date {
+  margin-top: 1.75rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+.ta-greeting {
+  margin-top: 3.5rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+}
+.ta-greeting p {
+  margin: 0.15rem 0;
+}
+.ta-guest {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  margin-top: 0.35rem !important;
+}
+
+.ta-section {
+  padding: clamp(3rem, 8vw, 6rem) 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+.ta-title {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  margin-bottom: 2rem;
+}
+
+.ta-intro p {
+  font-size: 1.1rem;
+  line-height: 1.85;
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: 0.85;
+  font-style: italic;
+}
+
+.ta-event-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+  margin: 0 0 2.5rem;
+}
+.ta-event-grid dt {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.7rem;
+  opacity: 0.55;
+  margin-bottom: 0.5rem;
+}
+.ta-event-grid dd {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  margin: 0;
+}
+.ta-btn {
+  display: inline-block;
+  padding: 0.85rem 2.25rem;
+  background: var(--color-primary);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 2px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  transition: opacity 0.2s;
+}
+.ta-btn:hover {
+  opacity: 0.85;
+}
+
+.ta-countdown {
+  background: var(--color-secondary);
+}
+
+.ta-footer {
+  text-align: center;
+  padding: 3.5rem 1.5rem;
+  background: var(--color-primary);
+  color: #faf7f2;
+}
+.ta-footer-close {
+  font-family: var(--font-heading);
+  font-style: italic;
+  opacity: 0.85;
+  margin: 0 0 0.5rem;
+}
+.ta-footer-sig {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  margin: 0;
+}
+.ta-footer-credit {
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  opacity: 0.6;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* Template-specific responsive */
+@media (max-width: 640px) {
+  .ta-section {
+    padding: 3rem 1rem;
+  }
+  .ta-greeting {
+    margin-top: 2.25rem;
+  }
+}

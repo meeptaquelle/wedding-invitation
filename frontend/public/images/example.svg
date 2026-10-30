@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8d8ce"/>
+      <stop offset="100%" stop-color="#8b5e5e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <circle cx="200" cy="200" r="120" fill="#faf7f2" opacity="0.15"/>
+  <circle cx="1400" cy="700" r="200" fill="#faf7f2" opacity="0.1"/>
+  <text x="800" y="470" text-anchor="middle" font-family="serif" font-size="84" fill="#faf7f2" opacity="0.9">Our Wedding</text>
+  <text x="800" y="540" text-anchor="middle" font-family="serif" font-size="28" fill="#faf7f2" opacity="0.7" letter-spacing="6">A LOVE STORY</text>
+</svg>

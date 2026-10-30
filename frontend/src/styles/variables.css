@@ -1,0 +1,24 @@
+:root {
+  /* DESIGN EDIT: Color palette */
+  --color-primary: #8b5e5e;
+  --color-secondary: #e8d8ce;
+  --color-accent: #b08a6a;
+  --color-background: #faf7f2;
+  --color-surface: #ffffff;
+  --color-text: #3b3330;
+  --color-muted: #8a7f7a;
+
+  /* DESIGN EDIT: Typography */
+  --font-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-body: 'Lato', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-accent: 'Cormorant Garamond', Georgia, serif;
+
+  /* DESIGN EDIT: Spacing */
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 32px;
+  --spacing-xlarge: 64px;
+
+  /* Breakpoint documentation (use literals in media queries) */
+  /* mobile: 640px | tablet: 900px | desktop: 1200px */
+}
