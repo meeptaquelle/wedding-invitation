@@ -7,7 +7,7 @@ const props = defineProps({
   nextCursor: { type: String, default: null },
   submitting: { type: Boolean, default: false },
   submitError: { type: String, default: null },
-  guestName: { type: String, default: 'Anonymous' }
+  guestName: { type: String, default: 'Fulan' }
 })
 
 const emit = defineEmits(['submit', 'load-more'])

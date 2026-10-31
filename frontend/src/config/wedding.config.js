@@ -2,8 +2,8 @@
 // All wedding information lives here. Templates never duplicate this data.
 export const weddingConfig = {
   couple: {
-    partnerOne: 'Andi',
-    partnerTwo: 'Sari'
+    partnerOne: 'Prabowo',
+    partnerTwo: 'Teddy'
   },
 
   // CONTENT EDIT: Event information
@@ -18,9 +18,9 @@ export const weddingConfig = {
 
   // DESIGN EDIT: Image assets
   images: {
-    hero: '/images/example.svg',
+    hero: '/images/examplephoto.jpg',
     gallery: [
-      '/images/example-gallery-1.svg',
+      '/images/examplepotrait.jpg',
       '/images/example-gallery-2.svg',
       '/images/example-gallery-3.svg'
     ]
@@ -41,7 +41,7 @@ export const weddingConfig = {
   // CONTENT EDIT: Footer text
   footer: {
     closing: 'With love,',
-    signature: 'Andi & Sari',
+    signature: 'Prabowo & Teddy',
     credit: 'Made with love'
   }
 }

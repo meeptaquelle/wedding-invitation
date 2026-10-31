@@ -125,7 +125,7 @@ func handlePostAnonymous(w http.ResponseWriter, r *http.Request) {
 	record := sheets.Message{
 		MessageID:   sheets.NewMessageID(),
 		GuestID:     "",
-		DisplayName: "Anonymous",
+		DisplayName: "Seseorang",
 		Message:     msg,
 		CreatedAt:   time.Now().UTC().Format(time.RFC3339),
 	}

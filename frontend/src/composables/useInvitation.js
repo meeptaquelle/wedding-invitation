@@ -4,7 +4,7 @@ import { weddingConfig } from '../config/wedding.config'
 
 export function useInvitation() {
   const slug = ref(null)
-  const guestName = ref('Anonymous')
+  const guestName = ref('Fulan')
   const loading = ref(true)
   const error = ref(null)
 

@@ -6,7 +6,7 @@ import Gallery from '../../components/Gallery.vue'
 import './style.css'
 
 const props = defineProps({
-  guestName: { type: String, default: 'Anonymous' },
+  guestName: { type: String, default: 'Fulan' },
   weddingDetails: { type: Object, required: true },
   messages: { type: Array, default: () => [] },
   messagesLoading: { type: Boolean, default: false },
